@@ -29,6 +29,7 @@ defmodule AvroEx.Mixfile do
       {:jason, "~> 1.1"},
 
       {:credo, "~> 1.0", only: :dev, runtime: false},
+      {:dialyxir, "~> 1.0.0-rc.6", only: :dev, runtime: false},
       {:ex_doc, "~> 0.18.0", only: :dev, runtime: false}
     ]
   end
