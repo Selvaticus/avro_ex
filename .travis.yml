@@ -38,5 +38,5 @@ before_script:
 
 script:
   - mix format --check-formatted
-	- mix credo --strict
+  - mix credo --strict
   - mix test
